@@ -1,0 +1,32 @@
+Main page
+	Nav - always on top - bootstrap nav-fixed-top
+	Search function on map
+	Categorise each pin 
+		- filter by categories
+		- all function
+	Pop-up for pin
+		- title
+		- submitted by (people) - links to profile(s)
+		- location
+		- photos
+		- brief description
+		- category
+		- link(s) to relevant routes
+		- like button
+	Social Media links
+	Pop-up form submission (link in Nav Bar)
+Featured Routes
+	Ranked?
+	Linked from pins
+	Route 
+		- details
+		- stops
+		- user associated (link to profile)
+		- dynamic map? - if time permitting
+Featured Travellers
+	See above
+My Profile
+	Picture
+	About
+	Locations
+	?????????????????
