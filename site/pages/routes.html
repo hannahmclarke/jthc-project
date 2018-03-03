@@ -1,15 +1,50 @@
 <!DOCTYPE html>
+<!--access token: pk.eyJ1IjoianJoZWFkdCIsImEiOiJjamU4cDUxMm8waXBpMzNtOXViZzA4eHJhIn0.rf8fWYFosO_l_oMGaF6NYQ-->
+
   <head>
-    <title>Suggested Routes</title>
+    <meta charset='utf-8' />
+    <title>Featured Routes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+    <link href='..bs_css/bootstrap.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
   </head>
 
   <body>
 
+    <header>
+        <ul class="topnav">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="routes.html">Featured Routes</a></li>
+            <li><a href="travelers.html">Featured Travelers</a></li>
+            <li class="right"><a href="profile.html">My Profile</a></li>
+        </ul>
+    </header>
+
+    <div id='map'></div>
+
+      <script>
+
+        mapboxgl.accessToken = 'pk.eyJ1IjoianJoZWFkdCIsImEiOiJjamU4cDUxMm8waXBpMzNtOXViZzA4eHJhIn0.rf8fWYFosO_l_oMGaF6NYQ';
+
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/basic-v9',
+            center: [0,50],
+            zoom: 1
+
+           });
+            map.addControl(new mapboxgl.GeolocateControl({
+                positionOptions: {
+                enableHighAccuracy: true
+            },
+                trackUserLocation: true
+}));
+      </script>
   </body>
-
-  <script>
-
-  </script>
 
 </html>
