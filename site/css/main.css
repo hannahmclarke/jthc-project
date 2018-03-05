@@ -51,9 +51,16 @@ ul.topnav li.right {float: right;}
 .route {
 
 }
-.marker {
-
-  background-image: url('https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png');
+.markerjordan {
+  background-image: url('../images/marker_red.png');
+  background-size: cover;
+  width: 50px;
+  height:50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.markerhannah {
+  background-image: url('../images/marker_red.png');
   background-size: cover;
   width: 50px;
   height:50px;
@@ -64,6 +71,6 @@ ul.topnav li.right {float: right;}
   max-width: 200px;
   }
 .mapboxg1-popup-content {
-  text-aligh: center;
+  text-align: center;
   font-family: 'Open Sans', sans-serif;
   }
