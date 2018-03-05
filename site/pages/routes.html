@@ -1,50 +1,92 @@
 <!DOCTYPE html>
-<!--access token: pk.eyJ1IjoianJoZWFkdCIsImEiOiJjamU4cDUxMm8waXBpMzNtOXViZzA4eHJhIn0.rf8fWYFosO_l_oMGaF6NYQ-->
-
   <head>
-    <meta charset='utf-8' />
-    <title>Featured Routes</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
-    <link href='..bs_css/bootstrap.min.css' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <title>Suggested Routes</title>
     <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
+
+    <style>
+    .route {
+
+    }
+    .marker {
+      background-image: url('../../../mapbox/mapbox-markers/mapbox-icon.png');
+      background-size: cover;
+      width: 50px;
+      height:50px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+    .mapboxg1-popup {
+      max-width: 200px;
+      }
+    .mapboxg1-popup-content {
+      text-aligh: center;
+      font-family: 'Open Sans', sans-serif;
+      }
+    </style>
   </head>
 
   <body>
+    <div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+  mapboxgl.accessToken = 'pk.eyJ1IjoiaGFubmFobWNsYXJrZSIsImEiOiJjajhvOWs2amswMHozMnZwY25sdGprbzV4In0.36gqvB8i6JSStoQRx8UWpQ';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/basic-v9'
 
-    <header>
-        <ul class="topnav">
-            <li><a href="index.html">Home</a></li>
-            <li><a class="active" href="routes.html">Featured Routes</a></li>
-            <li><a href="travelers.html">Featured Travelers</a></li>
-            <li class="right"><a href="profile.html">My Profile</a></li>
-        </ul>
-    </header>
 
-    <div id='map'></div>
+  });
+  // location data goes in here - i can't fiure out how to link to a bigger dataset
+  var geojson = {
+    type: 'FeatureCollection',
+    features: [{
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [-77.032, 38.913]
+      },
+      properties: {
+        title: 'Mapbox',
+        description: 'Washington, D.C.'
+      }
+    },
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+     coordinates: [-122.414, 37.776]
+   },
+   properties: {
+     title: 'Mapbox',
+     description: 'San Francisco, California'
+   }
+ }]
+};
+// add markers to map
+geojson.features.forEach(function(marker) {
 
-      <script>
+  // create a HTML element for each feature
+  var el = document.createElement('div');
+  el.className = 'marker';
 
-        mapboxgl.accessToken = 'pk.eyJ1IjoianJoZWFkdCIsImEiOiJjamU4cDUxMm8waXBpMzNtOXViZzA4eHJhIn0.rf8fWYFosO_l_oMGaF6NYQ';
+  // make a marker for each feature and add to the map
+  new mapboxgl.Marker(el)
+  .setLngLat(marker.geometry.coordinates)
+  .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+  .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
+  .addTo(map);
+});
+</script>
 
-        var map = new mapboxgl.Map({
-            container: 'map',
-            style: 'mapbox://styles/mapbox/basic-v9',
-            center: [0,50],
-            zoom: 1
+    <div class="route">
 
-           });
-            map.addControl(new mapboxgl.GeolocateControl({
-                positionOptions: {
-                enableHighAccuracy: true
-            },
-                trackUserLocation: true
-}));
-      </script>
+    </div>
+
   </body>
+
+  <script>
+
+  </script>
 
 </html>
