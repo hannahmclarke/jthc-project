@@ -47,10 +47,20 @@ ul.topnav li.right {float: right;}
     ul.topnav li.right,
     ul.topnav li {float: none;}
 }
+.toproute #map{
+position: relative;
+width: 80%;
+height: 200px;
+}
+.toproute {
+  text-align: center;
+}
 
 .route {
 
-}
+  }
+
+
 .markerjordan {
   background-image: url('../images/marker_red.png');
   background-size: cover;

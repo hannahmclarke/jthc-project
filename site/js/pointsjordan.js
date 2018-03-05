@@ -25,6 +25,7 @@ var geojson = {
 }]
 };
 
+
 // add jordan's markers to map
 geojson.featuresjordan.forEach(function(marker) {
 // create a HTML element for each feature
