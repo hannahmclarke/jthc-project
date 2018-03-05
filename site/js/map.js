@@ -7,9 +7,12 @@ var map = new mapboxgl.Map({
     zoom: 1
 
    });
+// Fly to user's location
     map.addControl(new mapboxgl.GeolocateControl({
         positionOptions: {
         enableHighAccuracy: true
     },
         trackUserLocation: true
 }));
+// Add zoom and rotation controls to the map.
+map.addControl(new mapboxgl.NavigationControl());
