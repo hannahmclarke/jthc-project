@@ -52,8 +52,8 @@ ul.topnav li.right {float: right;}
 
 }
 .marker {
-<!-- we need to change the background-image here - this doesn't link to anything atm -->
-  background-image: url('../../../mapbox/mapbox-markers/mapbox-icon.png');
+
+  background-image: url('https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png');
   background-size: cover;
   width: 50px;
   height:50px;
