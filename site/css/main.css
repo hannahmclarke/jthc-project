@@ -43,6 +43,13 @@ ul.topnav li.right {float: right;}
   bottom: 0;
   width: 100%;
 }
+#map2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 .markerjordan {
   background-image: url('../images/marker_red.png');
   background-size: cover;
