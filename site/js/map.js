@@ -7,13 +7,7 @@ var map= new mapboxgl.Map({
     zoom: 1
 
    });
- var map2= new mapboxgl.Map({
-       container: 'map2',
-       style: 'mapbox://styles/mapbox/basic-v9',
-       center: [0,50],
-       zoom: 1
 
-      });
 
    /* given a query returns a matching geographic coordinates as search results in
     * carmen geojson format, https://github.com/mapbox/carmen/blob/master/carmen-geojson.md
