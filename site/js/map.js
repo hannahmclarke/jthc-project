@@ -61,7 +61,7 @@ var map= new mapboxgl.Map({
        localGeocoder: coordinatesGeocoder
    }));
 
-// Fly to user's location
+// Adds location button - Fly to user's location
     map.addControl(new mapboxgl.GeolocateControl({
         positionOptions: {
         enableHighAccuracy: true

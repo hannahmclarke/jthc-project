@@ -67,26 +67,36 @@ ul.topnav li.right {float: right;}
   height: 200px;
 }
 
+.hannahimages img {
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+}
+
 .markerjordan {
   background-image: url('../images/marker_red.png');
   background-size: cover;
   width: 50px;
-  height:50px;
+  height: 50px;
   border-radius: 50%;
   cursor: pointer;
 }
 .markerhannah {
-  background-image: url('../images/marker_red.png');
+  background-image: url('../images/marker_purple.png');
   background-size: cover;
   width: 50px;
-  height:50px;
+  height: 50px;
   border-radius: 50%;
   cursor: pointer;
+
 }
+
 .mapboxg1-popup {
   max-width: 200px;
+  padding: 20px;
   }
 .mapboxg1-popup-content {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  }
+
+    }
