@@ -13,7 +13,7 @@ var map= new mapboxgl.Map({
     * carmen geojson format, https://github.com/mapbox/carmen/blob/master/carmen-geojson.md
     */
    var coordinatesGeocoder = function (query) {
-       // match anything which looks like a decimal degrees coordinate pair
+           // match anything which looks like a decimal degrees coordinate pair
        var matches = query.match(/^[ ]*(-?\d+\.?\d*)[, ]+(-?\d+\.?\d*)[ ]*$/);
        if (!matches) {
            return null;
@@ -60,6 +60,7 @@ var map= new mapboxgl.Map({
        accessToken: mapboxgl.accessToken,
        localGeocoder: coordinatesGeocoder
    }));
+
 
 // Adds location button - Fly to user's location
     map.addControl(new mapboxgl.GeolocateControl({

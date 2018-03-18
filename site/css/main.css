@@ -36,13 +36,33 @@ ul.topnav li.right {float: right;}
     ul.topnav li.right,
     ul.topnav li {float: none;}
 }
+.social {
+  position: fixed;
+  left: 0;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+
+}
+
+.fa {
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+  background: #3B5998;
+  color: white;
+  border-radius: 20%;
+  margin: 5px;
+  z-index: 1;
+  }
 
 #map {
   position: absolute;
-  top: 0;
+  top: 50px;
   bottom: 0;
   width: 100%;
 }
+
 #featuremap {
   position: static;
   width: 100%;
@@ -67,10 +87,12 @@ ul.topnav li.right {float: right;}
   height: 200px;
 }
 
-.hannahimages img {
+
+.images img {
   margin-right: 5px;
-  width: 50px;
   height: 50px;
+  border-radius: 10%;
+
 }
 
 .markerjordan {
