@@ -1,11 +1,10 @@
 body {
     margin: 0;
-    padding-top: 70px;
+
     background-color: #e1eff7;
     color: black;
     font-family: 'Source Sans Pro', sans-serif;
-    }
-
+        }
 
 
 ul.topnav {
@@ -36,6 +35,11 @@ ul.topnav li.right {float: right;}
     ul.topnav li.right,
     ul.topnav li {float: none;}
 }
+@media screen and (max-width: 600px) {
+    .col-xs-4 {
+        width: 100%;
+    }
+}
 .social {
   position: fixed;
   left: 0;
@@ -47,14 +51,22 @@ ul.topnav li.right {float: right;}
 
 .fa {
   padding: 20px;
-  width: 50px;
-  height: 50px;
-  background: #3B5998;
+  width: 63px;
+  height: 63px;
+  text-align: center;
+  text-decoration: none;
+  background: rgba(0, 64, 128, 0.5);
   color: white;
   border-radius: 20%;
   margin: 5px;
   z-index: 1;
+  transition: 0.3s;
   }
+
+.fa:hover {
+  background: rgba(0, 64, 128, 1);
+  text-decoration: none;
+  color: white;}
 
 #map {
   position: absolute;
@@ -122,3 +134,59 @@ ul.topnav li.right {float: right;}
   font-family: 'Open Sans', sans-serif;
 
     }
+
+.tripperstop, .trippershannah, .trippersjordan {
+  position: relative;
+  opacity: 0.75;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+
+/*insert image into this */
+.tripperstop {
+  ;
+  background-image: url('../images/trippers/top_.jpg');
+  min-height: 700px;
+}
+/*insert image into this */
+.trippershannah {
+  background-image: url("../images/trippers/hannah.png");
+  min-height: 400px;
+}
+
+/*insert image into this */
+.trippersjordan {
+  background-image: url("../images/trippers/hannah_.jpg");
+  min-height: 400px;
+}
+
+.title {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 10px;
+  font-weight: bold;
+
+}
+.title span.border {
+  background-color: transparent;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+
+}
+.trippertext {
+  color:inherit;
+  background-color: inherit;
+  text-align: justify;
+  max-width: 800px;
+  padding: 100px;
+  margin: 0 auto;
+  }
