@@ -135,7 +135,7 @@ ul.topnav li.right {float: right;}
 
     }
 
-.tripperstop, .trippershannah, .trippersjordan {
+.tripperstop, .trippershannah, .trippersjordan, .trippersfooter {
   position: relative;
   opacity: 0.75;
   background-attachment: fixed;
@@ -155,14 +155,19 @@ ul.topnav li.right {float: right;}
 }
 /*insert image into this */
 .trippershannah {
-  background-image: url("../images/trippers/hannah.png");
+  background-image: url("../images/trippers/hannah_.jpg");
   min-height: 400px;
 }
 
-/*insert image into this */
+/*need to replace this image*/
 .trippersjordan {
-  background-image: url("../images/trippers/hannah_.jpg");
+  background-image: url("../images/trippers/hannah.png");
   min-height: 400px;
+}
+/*need to replace this image*/
+.trippersfooter {
+  background-image: url("../images/trippers/hannah_footer.png");
+  min-height:400px;
 }
 
 .title {
@@ -187,6 +192,6 @@ ul.topnav li.right {float: right;}
   background-color: inherit;
   text-align: justify;
   max-width: 800px;
-  padding: 100px;
+  padding: 50px 100px;
   margin: 0 auto;
   }
