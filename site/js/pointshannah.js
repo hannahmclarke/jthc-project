@@ -217,7 +217,9 @@ geojson.featureshannah.forEach(function(marker) {
 var el = document.createElement('div');
 el.className = 'markerhannah';
 // make a marker for each feature and add to the map
-new mapboxgl.Marker(el)
+new mapboxgl.Marker(el, {
+  offset: [0, -25]
+})
 .setLngLat(marker.geometry.coordinates)
 .setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
 .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
