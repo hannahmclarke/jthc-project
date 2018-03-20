@@ -205,7 +205,7 @@ ul.topnav li.right {float: right;}
 
     }
 
-.tripperstop, .trippershannah, .trippersjordan, .trippersfooter {
+.tripperstop, .trippershannah, .trippersjordan, .trippersfooter, .routestop, .routes1, .routes2, .routes3, .featureroute {
   position: relative;
   opacity: 0.75;
   background-attachment: fixed;
@@ -216,6 +216,7 @@ ul.topnav li.right {float: right;}
   -ms-background-size: cover;
   background-size: cover;
 }
+
 
 /*insert image into this */
 .tripperstop {
@@ -234,6 +235,37 @@ ul.topnav li.right {float: right;}
   background-image: url("../images/trippers/jordan.jpg");
   min-height: 400px;
 }
+
+/*need to replace this image*/
+.routestop {
+  background-image: url("../images/routes/test.jpg");
+  min-height: 700px;
+}
+
+/*need to replace this image*/
+.featureroute {
+  background-image: url("../images/routes/roadtrip.jpg");
+  min-height: 200px;
+}
+
+/*need to replace this image*/
+.routes1 {
+  background-image: url("../images/routes/car.jpg");
+  min-height: 200px;
+}
+
+/*need to replace this image*/
+.routes2 {
+  background-image: url("../images/routes/route66.jpg");
+  min-height: 200px;
+}
+
+/*need to replace this image*/
+.routes3 {
+  background-image: url("../images/routes/spain.jpg");
+  min-height: 200px;
+}
+
 /*need to replace this image*/
 .trippersfooter {
   background-image: url("../images/trippers/footer.jpg");
@@ -264,5 +296,13 @@ ul.topnav li.right {float: right;}
   text-align: justify;
   max-width: 800px;
   padding: 50px 100px;
+  margin: 0 auto;
+  }
+
+.routetext {
+  color:inherit;
+  background-color: inherit;
+  text-align: justify;
+  max-width: 70%;
   margin: 0 auto;
   }
