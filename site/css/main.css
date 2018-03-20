@@ -185,16 +185,16 @@ ul.topnav li.right {float: right;}
 .markerjordan {
   background-image: url('../images/marker_red.png');
   background-size: cover;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   cursor: pointer;
 }
 .markerhannah {
   background-image: url('../images/marker_purple.png');
   background-size: cover;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   cursor: pointer;
 
