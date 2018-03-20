@@ -157,25 +157,25 @@ ul.topnav li.right {float: right;}
 #featuremap {
   position: static;
   width: 100%;
-  height: 200px;
+  height: 500px;
 
 }
 
 #map1 {
   position: static;
   width: 100%;
-  height: 200px;
+  height: 500px;
 }
 #map2 {
   position: static;
   width: 100%;
-  height: 200px;
+  height: 500px;
 }
 
 #map3 {
   position: static;
   width: 100%;
-  height: 200px;
+  height: 500px;
 }
 
 
@@ -189,16 +189,16 @@ ul.topnav li.right {float: right;}
 .markerjordan {
   background-image: url('../images/marker_red.png');
   background-size: cover;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   cursor: pointer;
 }
 .markerhannah {
   background-image: url('../images/marker_purple.png');
   background-size: cover;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   cursor: pointer;
 
@@ -247,31 +247,31 @@ ul.topnav li.right {float: right;}
 
 /*need to replace this image*/
 .routestop {
-  background-image: url("../images/routes/test.jpg");
+  background-image: url("../images/jordan/deathvalley3.jpg");
   min-height: 700px;
 }
 
 /*need to replace this image*/
 .featureroute {
-  background-image: url("../images/routes/roadtrip.jpg");
+  background-image: url("../images/hannah/joshua_(3).jpg");
   min-height: 200px;
 }
 
 /*need to replace this image*/
 .routes1 {
-  background-image: url("../images/routes/car.jpg");
+  background-image: url("../images/jordan/mountain2.jpg");
   min-height: 200px;
 }
 
 /*need to replace this image*/
 .routes2 {
-  background-image: url("../images/routes/route66.jpg");
+  background-image: url("../images/hannah/route66_(2).jpg");
   min-height: 200px;
 }
 
 /*need to replace this image*/
 .routes3 {
-  background-image: url("../images/routes/spain.jpg");
+  background-image: url("../images/jordan/santamaria2.jpg");
   min-height: 200px;
 }
 
