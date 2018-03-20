@@ -272,6 +272,66 @@ description: 'My favourite place in the whole world.  </br><div class="images"><
 type: 'Feature',
 geometry: {
   type: 'Point',
+coordinates: [168.653272, -45.032424]
+},
+properties: {
+category: 'Town',
+title: 'Queenstown',
+description: 'If you want extreme sports then Queenstown is the best place.  </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+}
+},
+{
+type: 'Feature',
+geometry: {
+  type: 'Point',
+coordinates: [169.135625, -44.689073]
+},
+properties: {
+category: 'Town',
+title: 'Wanaka',
+description: 'Town on a lake - perfect for Stand-up-Paddleboarding.  </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+}
+},
+{
+type: 'Feature',
+geometry: {
+  type: 'Point',
+coordinates: [167.918220, -44.672270]
+},
+properties: {
+category: 'Park',
+title: 'Milford Sound',
+description: 'Epic scenery, even in the rain.  </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+}
+},
+{
+type: 'Feature',
+geometry: {
+  type: 'Point',
+coordinates: [-115.560676, 51.184710]
+},
+properties: {
+category: 'Town',
+title: 'Banff',
+description: 'Snowsports town with some great restaurants.  </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+}
+},
+{
+type: 'Feature',
+geometry: {
+  type: 'Point',
+coordinates: [-116.216962, 51.418397]
+},
+properties: {
+category: 'Park',
+title: 'Lake Louise',
+description: 'Beautiful crystal blue lake.  </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+}
+},
+{
+type: 'Feature',
+geometry: {
+  type: 'Point',
 coordinates: [173.047404, -40.96466]
 },
 properties: {
