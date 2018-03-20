@@ -313,7 +313,7 @@ coordinates: [-115.560676, 51.184710]
 properties: {
 category: 'Town',
 title: 'Banff',
-description: 'Snowsports town with some great restaurants.  </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+description: 'Snowsports town with some great restaurants.  </br><div class="images"><a href="../images/hannah/banff1.jpg" data-lightbox="banff" data-title="Banff, Alberta"><img src="../images/hannah/banff1.jpg"/></a><a href="../images/hannah/banff2.jpg" data-lightbox="banff" data-title="Banff, Alberta"><img src="../images/hannah/banff2.jpg"/></a></div>'
 }
 },
 {
@@ -325,7 +325,7 @@ coordinates: [-116.216962, 51.418397]
 properties: {
 category: 'Park',
 title: 'Lake Louise',
-description: 'Beautiful crystal blue lake.  </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+description: 'Beautiful crystal blue lake.  </br><div class="images"><a href="../images/hannah/lakelouise1.jpg" data-lightbox="lakelouise" data-title="Lake Louise, Alberta"><img src="../images/hannah/lakelouise1.jpg"/></a><a href="../images/hannah/lakelouise2.jpg" data-lightbox="lakelouise" data-title="Lake Louise, Alberta"><img src="../images/hannah/lakelouise2.jpg"/></a></div>'
 }
 },
 {
@@ -351,10 +351,10 @@ var el = document.createElement('div');
 el.className = 'markerhannah';
 // make a marker for each feature and add to the map
 new mapboxgl.Marker(el, {
-  offset: [0, -25]
+  offset: [0, -15]
 })
 .setLngLat(marker.geometry.coordinates)
-.setPopup(new mapboxgl.Popup({ offset: 50 }) // add popups
+.setPopup(new mapboxgl.Popup({ offset: 30 }) // add popups
 .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
 .addTo(map);
 });
