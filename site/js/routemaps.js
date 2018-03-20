@@ -3,8 +3,8 @@ mapboxgl.accessToken = 'pk.eyJ1IjoianJoZWFkdCIsImEiOiJjamU4cDUxMm8waXBpMzNtOXViZ
 var featuremap= new mapboxgl.Map({
       container: 'featuremap',
       style: 'mapbox://styles/mapbox/basic-v9',
-      center: [-110,40],
-      zoom: 5
+      center: [-100,40],
+      zoom: 6
 
      });
 
@@ -18,7 +18,7 @@ var featuremap= new mapboxgl.Map({
  var map2= new mapboxgl.Map({
         container: 'map2',
         style: 'mapbox://styles/mapbox/basic-v9',
-        center: [-104,39],
+        center: [-115,36],
         zoom: 5
       });
 
