@@ -161,13 +161,13 @@ ul.topnav li.right {float: right;}
 
 /*need to replace this image*/
 .trippersjordan {
-  background-image: url("../images/trippers/hannah.png");
+  background-image: url("../images/trippers/jordan.png");
   min-height: 400px;
 }
 /*need to replace this image*/
 .trippersfooter {
-  background-image: url("../images/trippers/hannah_footer.png");
-  min-height:400px;
+  background-image: url("../images/trippers/footer.png");
+  min-height: 400px;
 }
 
 .title {
