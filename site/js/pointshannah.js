@@ -337,7 +337,7 @@ coordinates: [-112.534052, 51.380724]
 properties: {
 category: 'Attraction',
 title: 'Drumheller Hoodoos Trail',
-description: 'Strange geological formations in Alberta.  </br><div class="images"><a href="../images/hannah/lakelouise1.jpg" data-lightbox="lakelouise" data-title="Lake Louise, Alberta"><img src="../images/hannah/lakelouise1.jpg"/></a><a href="../images/hannah/lakelouise2.jpg" data-lightbox="lakelouise" data-title="Lake Louise, Alberta"><img src="../images/hannah/lakelouise2.jpg"/></a></div>'
+description: 'Strange geological formations in Alberta.  </br><div class="images"><a href="../images/hannah/hoodoos2.jpg" data-lightbox="hoodoos" data-title="Hoodoos Trail, Alberta"><img src="../images/hannah/hoodoos2.jpg"/></a><a href="../images/hannah/hoodoos1.jpg" data-lightbox="hoodoos" data-title="Hoodoos Trail, Alberta"><img src="../images/hannah/hoodoos1.jpg"/></a></div>'
 }
 },
 {
