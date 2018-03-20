@@ -1,4 +1,4 @@
-// Hannah's location data goes in here - i can't fiure out how to link to a bigger dataset
+// Hannah's location data goes in here - insert images
 
 var geojson = {
 
@@ -326,6 +326,30 @@ properties: {
 category: 'Park',
 title: 'Lake Louise',
 description: 'Beautiful crystal blue lake.  </br><div class="images"><a href="../images/hannah/lakelouise1.jpg" data-lightbox="lakelouise" data-title="Lake Louise, Alberta"><img src="../images/hannah/lakelouise1.jpg"/></a><a href="../images/hannah/lakelouise2.jpg" data-lightbox="lakelouise" data-title="Lake Louise, Alberta"><img src="../images/hannah/lakelouise2.jpg"/></a></div>'
+}
+},
+{
+type: 'Feature',
+geometry: {
+  type: 'Point',
+coordinates: [-112.534052, 51.380724]
+},
+properties: {
+category: 'Attraction',
+title: 'Drumheller Hoodoos Trail',
+description: 'Strange geological formations in Alberta.  </br><div class="images"><a href="../images/hannah/lakelouise1.jpg" data-lightbox="lakelouise" data-title="Lake Louise, Alberta"><img src="../images/hannah/lakelouise1.jpg"/></a><a href="../images/hannah/lakelouise2.jpg" data-lightbox="lakelouise" data-title="Lake Louise, Alberta"><img src="../images/hannah/lakelouise2.jpg"/></a></div>'
+}
+},
+{
+type: 'Feature',
+geometry: {
+  type: 'Point',
+coordinates: [-114.071775, 51.047985]
+},
+properties: {
+category: 'City',
+title: 'Calgary',
+description: 'Calgary, Alberta.  </br><div class="images"><a href="../images/hannah/lakelouise1.jpg" data-lightbox="lakelouise" data-title="Lake Louise, Alberta"><img src="../images/hannah/lakelouise1.jpg"/></a><a href="../images/hannah/lakelouise2.jpg" data-lightbox="lakelouise" data-title="Lake Louise, Alberta"><img src="../images/hannah/lakelouise2.jpg"/></a></div>'
 }
 },
 {
