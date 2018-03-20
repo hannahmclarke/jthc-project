@@ -10,7 +10,7 @@ var geojson = {
     properties: {
       category: 'Attraction',
       title: 'Santa Monica Pier, Santa Monica',
-      description: 'Santa Monica Pier </br><div class="images"><a href="../images/jordan/santamonica_(1).jpg" data-lightbox="santamonica" data-title="Santa Monica Pier"><img src="../images/jordan/santamonica_(1).jpg"/></a><a href="../images/jordan/santamonica_(2).jpg" data-lightbox="santamonica" data-title="Santa Monica Pier"><img src="../images/jordan/santamonica_(2).jpg"/></a></div>'
+      description: 'Santa Monica Pier </br><div class="images"><a href="../images/jordan/santamonica_(1).jpg" data-lightbox="santamonica" data-title="Santa Monica Pier"><img src="../images/jordan/santamonica_(1).jpg"/></a><a href="../images/jordan/santamonica_(2).jpg" data-lightbox="santamonica" data-title="Santa Monica Pier"><img src="../images/jordan/santamonica_(2).jpg"/></a><a href="../images/jordan/santamonica3.jpg" data-lightbox="santamonica" data-title="Santa Monica Pier"><img src="../images/jordan/santamonic3.jpg"/></a></div>'
     }
   },
   {
@@ -310,7 +310,7 @@ var geojson = {
     properties: {
       category: 'Park',
       title: 'Lake Bled',
-      description: 'First time out of the UK, Slovenia </br><div class="images"><a href="../images/jordan/bled1.jpg" data-lightbox="" data-title=""><img src="../images/jordan/bled1.jpg"/></a></div>'
+      description: 'First time out of the UK, Slovenia </br><div class="images"><a href="../images/jordan/bled1.jpg" data-lightbox="bled" data-title="Lake Bled"><img src="../images/jordan/bled1.jpg"/></a><a href="../images/jordan/bled2.jpg" data-lightbox="bled" data-title="Lake Bled"><img src="../images/jordan/bled2.jpg"/></a><a href="../images/jordan/bled3.jpg" data-lightbox="bled" data-title="Lake Bled"><img src="../images/jordan/bled3.jpg"/></a></div>'
     }
   },
   {
@@ -322,7 +322,7 @@ var geojson = {
     properties: {
       category: 'Park',
       title: 'Lake Bohinj',
-      description: 'First time out of the UK, Slovenia </br><div class="images"><a href="../images/jordan/.jpg" data-lightbox="" data-title=""><img src="../images/jordan/.jpg"/></a><a href="../images/jordan/.jpg" data-lightbox="" data-title=""><img src="../images/jordan/.jpg"/></a></div>'
+      description: 'First time out of the UK, Slovenia </br><div class="images"><a href="../images/jordan/bohinj1.jpg" data-lightbox="bohinj" data-title="Lake Bohinj"><img src="../images/jordan/bohinj1.jpg"/></a><a href="../images/jordan/bohinj2.jpg" data-lightbox="bohinj" data-title="Lake Bohinj"><img src="../images/jordan/bohinj2.jpg"/></a><a href="../images/jordan/bohinj3.jpg" data-lightbox="bohinj" data-title="Lake Bohinj"><img src="../images/jordan/bohinj3.jpg"/></a></div>'
     }
   },
   {
@@ -334,7 +334,7 @@ var geojson = {
     properties: {
       category: 'Park',
       title: 'Vintgar Gorge',
-      description: 'First time out of the UK, Slovenia </br><div class="images"><a href="../images/jordan/.jpg" data-lightbox="" data-title=""><img src="../images/jordan/.jpg"/></a><a href="../images/jordan/.jpg" data-lightbox="" data-title=""><img src="../images/jordan/.jpg"/></a></div>'
+      description: 'First time out of the UK, Slovenia </br><div class="images"><a href="../images/jordan/vintgar1.jpg" data-lightbox="vintgar" data-title="Vintgar Gorge"><img src="../images/jordan/vintgar1.jpg"/></a></div>'
     }
   },
   {
@@ -346,7 +346,7 @@ var geojson = {
     properties: {
       category: 'Park',
       title: 'White Water Rafting in Bovec',
-      description: 'First time out of the UK, Slovenia </br><div class="images"><a href="../images/jordan/.jpg" data-lightbox="" data-title=""><img src="../images/jordan/.jpg"/></a><a href="../images/jordan/.jpg" data-lightbox="" data-title=""><img src="../images/jordan/.jpg"/></a></div>'
+      description: 'First time out of the UK, Slovenia </br><div class="images"><a href="../images/jordan/whitewater1.jpg" data-lightbox="whitewater" data-title="White Water Rafting in Bovec"><img src="../images/jordan/whitewater1.jpg"/></a><a href="../images/jordan/whitewater2.jpg" data-lightbox="whitewater" data-title="White Water Rafting in Bovec"><img src="../images/jordan/whitewater2.jpg"/></a></div>'
     }
   },
   {
