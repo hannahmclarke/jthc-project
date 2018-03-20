@@ -22,7 +22,7 @@ var geojson = {
     properties: {
       category: 'Attraction',
       title: 'Hollywood Boulevard, Los Angeles',
-      description: 'Hollywood Walk of Fame </br><div class="images"><a href="../images/jordan/hollywood_(1).jpg" data-lightbox="hollywood" data-title="Hollywood Boulevard"><img src="../images/jordan/hollywood_(1).jpg"/></a><a href="../images/jordan/hollywood_(2).jpg" data-lightbox="hollywood" data-title="Hollywood Boulevard><img src="../images/jordan/hollywood_(2).jpg"/></a></div>'
+      description: 'Hollywood Walk of Fame </br><div class="images"><a href="../images/jordan/hollywood_(1).jpg" data-lightbox="hollywood" data-title="Hollywood Boulevard"><img src="../images/jordan/hollywood_(1).jpg"/></a><a href="../images/jordan/hollywood_(2).jpg" data-lightbox="hollywood" data-title="Hollywood Boulevard"><img src="../images/jordan/hollywood_(2).jpg"/></a></div>'
     }
   },
   {
@@ -58,7 +58,7 @@ var geojson = {
     properties: {
       category: 'Park',
       title: 'Yosemite',
-      description: 'Wawona in Yosemite National Park </br><div class="images"><a href="../images/jordan/yeosemite1.jpg" data-lightbox="yeosemite" data-title="Yeosemite National Park"><img src="../images/jordan/yesemite1.jpg"/></a><a href="../images/jordan/yeosemite2.jpg" data-lightbox="yeosemite" data-title="Yeosemite National Park"><img src="../images/jordan/yeosemite2.jpg"/></a><a href="../images/jordan/yeosemite3.jpg" data-lightbox="yeosemite" data-title="Yeosemite National Park"><img src="../images/jordan/yeosemite3.jpg"/></a></div>'
+      description: 'Wawona in Yosemite National Park </br><div class="images"><a href="../images/jordan/yeosemite1.jpg" data-lightbox="yeosemite" data-title="Yeosemite National Park"><img src="../images/jordan/yoesemite1.jpg"/></a><a href="../images/jordan/yeosemite2.jpg" data-lightbox="yeosemite" data-title="Yeosemite National Park"><img src="../images/jordan/yeosemite2.jpg"/></a><a href="../images/jordan/yeosemite3.jpg" data-lightbox="yeosemite" data-title="Yeosemite National Park"><img src="../images/jordan/yeosemite3.jpg"/></a></div>'
     }
   },
   {
@@ -70,7 +70,7 @@ var geojson = {
     properties: {
       category: 'Park',
       title: 'Sequoia National Park',
-      description: 'Drive through/around Sequoia National Park </br><div class="images"><a href="../images/jordan/.jpg" data-lightbox="" data-title=""><img src="../images/jordan/.jpg"/></a><a href="../images/jordan/.jpg" data-lightbox="" data-title=""><img src="../images/jordan/.jpg"/></a></div>'
+      description: 'Drive through/around Sequoia National Park </br><div class="images"><a href="../images/jordan/.jpg" data-lightbox="" data-title=""><img src="../images/jordan/.jpg"/></a><a href="../images/jordan/seq1.jpg" data-lightbox="seq" data-title="Sequoia National Park"><img src="../images/jordan/seq1.jpg"/></a></div>'
     }
   },
   {
@@ -106,7 +106,7 @@ var geojson = {
     properties: {
       category: 'Attraction',
       title: 'Fenway Park',
-      description: 'Boston, MA </br><div class="images"><a href="../images/jordan/.jpg" data-lightbox="" data-title=""><img src="../images/jordan/.jpg"/></a><a href="../images/jordan/.jpg" data-lightbox="" data-title=""><img src="../images/jordan/.jpg"/></a></div>'
+      description: 'Boston, MA </br><div class="images"><a href="../images/jordan/bos1.jpg" data-lightbox="fenway" data-title="Fenway Park"><img src="../images/jordan/bos1.jpg"/></a><a href="../images/jordan/bos2.jpg" data-lightbox="fenway" data-title="Fenway Park"><img src="../images/jordan/bos2.jpg"/></a></div>'
     }
   },
   {
@@ -142,7 +142,7 @@ var geojson = {
     properties: {
       category: 'Park',
       title: 'Niagara Falls',
-      description: 'Niagara Falls, Canada </br><div class="images"><a href="../images/jordan/.jpg" data-lightbox="" data-title=""><img src="../images/jordan/.jpg"/></a><a href="../images/jordan/.jpg" data-lightbox="" data-title=""><img src="../images/jordan/.jpg"/></a></div>'
+      description: 'Niagara Falls, Canada </br><div class="images"><a href="../images/jordan/falls1.jpg" data-lightbox="niagara" data-title="Niagara Falls, Canada"><img src="../images/jordan/falls1.jpg"/></a><a href="../images/jordan/falls2.jpg" data-lightbox="niagara" data-title="Niagara Falls, Canada"><img src="../images/jordan/falls2.jpg"/></a><a href="../images/jordan/falls3.jpg" data-lightbox="niagara" data-title="Niagara Falls, Canada"><img src="../images/jordan/falls3.jpg"/></a></div>'
     }
   },
   {
@@ -575,10 +575,10 @@ var el = document.createElement('div');
 el.className = 'markerjordan';
 // make a marker for each feature and add to the map
 new mapboxgl.Marker(el, {
-  offset: [0, -25]
+  offset: [0, -15]
 })
 .setLngLat(marker.geometry.coordinates)
-.setPopup(new mapboxgl.Popup({ offset: 25 }) // add popups
+.setPopup(new mapboxgl.Popup({ offset: 30 }) // add popups
 .setHTML('<h3>' + marker.properties.title + '</h3><p>' + marker.properties.description + '</p>'))
 .addTo(map);
 });
