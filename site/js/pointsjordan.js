@@ -57,8 +57,8 @@ var geojson = {
     },
     properties: {
       category: 'Park',
-      title: 'Yeosemite',
-      description: 'Wawona in Yeosemite National Park </br><div class="images"><a href="../images/jordan/yeosemite1.jpg" data-lightbox="yeosemite" data-title="Yeosemite National Park"><img src="../images/jordan/yesemite1.jpg"/></a><a href="../images/jordan/yeosemite2.jpg" data-lightbox="yeosemite" data-title="Yeosemite National Park"><img src="../images/jordan/yeosemite2.jpg"/></a><a href="../images/jordan/yeosemite3.jpg" data-lightbox="yeosemite" data-title="Yeosemite National Park"><img src="../images/jordan/yeosemite3.jpg"/></a></div>'
+      title: 'Yosemite',
+      description: 'Wawona in Yosemite National Park </br><div class="images"><a href="../images/jordan/yeosemite1.jpg" data-lightbox="yeosemite" data-title="Yeosemite National Park"><img src="../images/jordan/yesemite1.jpg"/></a><a href="../images/jordan/yeosemite2.jpg" data-lightbox="yeosemite" data-title="Yeosemite National Park"><img src="../images/jordan/yeosemite2.jpg"/></a><a href="../images/jordan/yeosemite3.jpg" data-lightbox="yeosemite" data-title="Yeosemite National Park"><img src="../images/jordan/yeosemite3.jpg"/></a></div>'
     }
   },
   {

@@ -109,7 +109,7 @@ coordinates: [-112.061667, 36.214722]
 properties: {
 category: 'Park',
 title: 'Grand Canyon North Rim',
-description: 'Route 66 </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></div>'
+description: 'The Grand Canyon. </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
 }
 },
 {
@@ -121,7 +121,7 @@ coordinates: [-111.750928, 36.746506]
 properties: {
 category: 'Park',
 title: 'Cliff Dwellers',
-description: 'Route 66 </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></div>'
+description: 'Awesome houses built into the cliffs. </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
 }
 },
 {
@@ -133,7 +133,7 @@ coordinates: [-109.044860, 37.001249]
 properties: {
 category: 'Attraction',
 title: 'Four Corners',
-description: 'Route 66 </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></div>'
+description: 'Where Arizona, Utah, New Mexico and Nevada meet. </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
 }
 },
 {
@@ -145,7 +145,7 @@ coordinates: [-109.539852, 37.782693]
 properties: {
 category: 'Campsite',
 title: 'Nizhoni Campsite',
-description: 'Route 66 </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></div>'
+description: 'Secluded campsite in the forest. </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
 }
 },
 {
@@ -157,7 +157,7 @@ coordinates: [-109.856422, 38.315498]
 properties: {
 category: 'Attraction',
 title: 'Canyonlands',
-description: 'Route 66 </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></div>'
+description: 'Epic canyons in Utah. Definitely need to go back here! </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
 }
 },
 {
@@ -169,7 +169,7 @@ coordinates: [-106.826675, 39.658363]
 properties: {
 category: 'Food and Drink',
 title: 'Eagle Diner',
-description: 'Route 66 </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></div>'
+description: '50s style diner in Colorado </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
 }
 },
 {
@@ -181,7 +181,7 @@ coordinates: [-105.754314, 40.445343]
 properties: {
 category: 'Attraction',
 title: 'Rocky Mountain National Park',
-description: 'Route 66 </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></div>'
+description: 'Cold but beautiful </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
 }
 },
 {
@@ -193,7 +193,7 @@ coordinates: [-105.5234054, 40.212172]
 properties: {
 category: 'Campsite',
 title: 'Olive Ridge Campground',
-description: 'Route 66 </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></div>'
+description: 'Campsite in the forest </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
 }
 },
 {
@@ -205,9 +205,82 @@ coordinates: [-104.9653, 39.7348]
 properties: {
 category: 'City',
 title: 'Denver',
-description: 'Route 66 </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></div>'
+description: 'Super-cool city, very friendly people </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+}
+},
+{
+type: 'Feature',
+geometry: {
+  type: 'Point',
+coordinates: [-89.964413, 42.761760]
+},
+properties: {
+category: 'Campsite',
+title: 'Yellowstone Lake Park',
+description: 'Campground with an awesome lake in Wisconsin </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+}
+},
+{
+type: 'Feature',
+geometry: {
+  type: 'Point',
+coordinates: [-87.721159, 43.721453]
+},
+properties: {
+category: 'Attraction',
+title: 'Lake Michigan',
+description: 'Kohler-Andrae State Park Campground </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+}
+},
+{
+type: 'Feature',
+geometry: {
+  type: 'Point',
+coordinates: [-87.655555555556, 41.948333333333]
+},
+properties: {
+category: 'City',
+title: 'Chicago',
+description: 'Home to The Chicago Cubs baseball team.  </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+}
+},
+{
+type: 'Feature',
+geometry: {
+  type: 'Point',
+coordinates: [171.32694444, -42.11861111]
+},
+properties: {
+category: 'Park',
+title: 'Punakaiki Pancake Rocks',
+description: 'Rock formations that look like stacks of pancakes.  </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+}
+},
+{
+type: 'Feature',
+geometry: {
+  type: 'Point',
+coordinates: [170.32098, -43.56757]
+},
+properties: {
+category: 'Park',
+title: 'Mt Cook',
+description: 'My favourite place in the whole world.  </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+}
+},
+{
+type: 'Feature',
+geometry: {
+  type: 'Point',
+coordinates: [173.047404, -40.96466]
+},
+properties: {
+category: 'Park',
+title: 'Abel Tasman',
+description: 'Beautiful national park in NZ South Island.  </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
 
 },
+
  }]
  };
 
