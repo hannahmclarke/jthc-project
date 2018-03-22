@@ -109,7 +109,7 @@ coordinates: [-112.061667, 36.214722]
 properties: {
 category: 'Park',
 title: 'Grand Canyon North Rim',
-description: 'The Grand Canyon. </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+description: 'The Grand Canyon. </br><div class="images"><a href="../images/hannah/grandcanyon1.jpg" data-lightbox="grandcanyon" data-title="Grand Canyon North Rim"><img src="../images/hannah/grandcanyon1.jpg"/></a><a href="../images/hannah/grandcanyon2.jpg" data-lightbox="grandcanyon" data-title="Grand Canyon North Rim"><img src="../images/hannah/grandcanyon2.jpg"/></a><a href="../images/hannah/grandcanyon3.jpg" data-lightbox="grandcanyon" data-title="Grand Canyon North Rim"><img src="../images/hannah/grandcanyon3.jpg"/></a></div>'
 }
 },
 {
@@ -121,7 +121,7 @@ coordinates: [-111.750928, 36.746506]
 properties: {
 category: 'Park',
 title: 'Cliff Dwellers',
-description: 'Awesome houses built into the cliffs. </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+description: 'Awesome houses built into the cliffs. </br><div class="images"><a href="../images/hannah/cliff1.jpg" data-lightbox="cliff" data-title="Cliff Dwellers"><img src="../images/hannah/cliff1.jpg"/></a><a href="../images/hannah/cliff2.jpg" data-lightbox="cliff" data-title="Cliff Dwellers"><img src="../images/hannah/cliff2.jpg"/></a><a href="../images/hannah/cliff3.jpg" data-lightbox="cliff" data-title="Cliff Dwellers"><img src="../images/hannah/cliff3.jpg"/></a></div>'
 }
 },
 {
@@ -133,7 +133,7 @@ coordinates: [-109.044860, 37.001249]
 properties: {
 category: 'Attraction',
 title: 'Four Corners',
-description: 'Where Arizona, Utah, New Mexico and Nevada meet. </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+description: 'Where Arizona, Utah, New Mexico and Nevada meet. </br><div class="images"><a href="../images/hannah/fourcorners.jpg" data-lightbox="fourcorners" data-title="Utah, Nevada, Arizona, New Mexico"><img src="../images/hannah/fourcorners.jpg"/></a></div>'
 }
 },
 {
@@ -157,7 +157,7 @@ coordinates: [-109.856422, 38.315498]
 properties: {
 category: 'Attraction',
 title: 'Canyonlands',
-description: 'Epic canyons in Utah. Definitely need to go back here! </br><div class="images"><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a><a href="../images/hannah/.jpg" data-lightbox="" data-title=""><img src="../images/hannah/.jpg"/></a></div>'
+description: 'Epic canyons in Utah. Definitely need to go back here! </br><div class="images"><a href="../images/hannah/canyonlands1.jpg" data-lightbox="canyons" data-title="Canyonlands, Utah"><img src="../images/hannah/canyonlands1.jpg"/></a><a href="../images/hannah/canyonlands2.jpg" data-lightbox="canyons" data-title="Canyonlands, Utah"><img src="../images/hannah/canyonlands2.jpg"/></a></div>'
 }
 },
 {
@@ -349,7 +349,7 @@ coordinates: [-114.071775, 51.047985]
 properties: {
 category: 'City',
 title: 'Calgary',
-description: 'Calgary, Alberta.  </br><div class="images"><a href="../images/hannah/lakelouise1.jpg" data-lightbox="lakelouise" data-title="Lake Louise, Alberta"><img src="../images/hannah/lakelouise1.jpg"/></a><a href="../images/hannah/lakelouise2.jpg" data-lightbox="lakelouise" data-title="Lake Louise, Alberta"><img src="../images/hannah/lakelouise2.jpg"/></a></div>'
+description: 'Calgary, Alberta.  </br><div class="images"><a href="../images/hannah/calgary1.jpg" data-lightbox="calgary" data-title="Calgary, Alberta"><img src="../images/hannah/calgary1.jpg"/></a><a href="../images/hannah/calgary2.jpg" data-lightbox="calgary" data-title="Calgary, Alberta"><img src="../images/hannah/calgary2.jpg"/></a></div>'
 }
 },
 {
